@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body style="text-align: center;" >
+    <h1>Contact Us</h1>
+    <form action="/submit_contact" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+
+    <h1>Register</h1>
+    <form action="/submit_registration" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+
+
+
+
+    <h1>Login</h1>
+    <form action="/submit_login" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <input type="submit" value="Login">
+    </form>
+
+
+
+<h1>Feedback</h1>
+<form action="/submit_feedback" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="feedback">Your Feedback:</label><br>
+    <textarea id="feedback" name="feedback" required></textarea><br><br>
+    
+    <input type="submit" value="Submit">
+</form>
+
+
+
+    <h1>Register for Event</h1>
+    <form action="/submit_event_registration" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="event">Choose Event:</label><br>
+        <select id="event" name="event" required>
+            <option value="event1">Event 1</option>
+            <option value="event2">Event 2</option>
+            <option value="event3">Event 3</option>
+        </select><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+
+    <h2>Birth Certificate Form</h2>
+    <form action="#" method="POST">
+        <div class="form-group">
+            <label for="childName">Child's Full Name:</label><br>
+            <input type="text" id="childName" name="childName" required><br><br>
+        </div>
+        <div class="form-group">
+            <label for="dateOfBirth">Date of Birth:</label><br>
+            <input type="date" id="dateOfBirth" name="dateOfBirth" required><br><br>
+        </div>
+        <div class="form-group">
+            <label for="placeOfBirth">Place of Birth:</label><br>
+            <input type="text" id="placeOfBirth" name="placeOfBirth" required><br><br>
+        </div>
+        <div class="form-group">
+            <label for="gender">Gender:</label><br>
+            <select id="gender" name="gender" required><br><br>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div><br><br>
+        <div class="form-group">
+            <label for="fatherName">Father's Full Name:</label><br>
+            <input type="text" id="fatherName" name="fatherName" required><br><br>
+        </div>
+        <div class="form-group">
+            <label for="motherName">Mother's Full Name:</label><br>
+            <input type="text" id="motherName" name="motherName" required><br><br>
+        </div>
+        <div class="form-group">
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address" required><br><br>
+        </div>
+        <div class="form-group">
+            <button type="submit">Submit</button><br><br>
+        </div>
+    </form>
+
+    <h2>Death Certificate Form</h2>
+    <form action="#" method="POST">
+        <div class="form-group">
+            <label for="deceasedName">Deceased's Full Name:</label><br>
+            <input type="text" id="deceasedName" name="deceasedName" required><br><br>
+        </div>
+        <div class="form-group">
+            <label for="dateOfDeath">Date of Death:</label><br>
+            <input type="date" id="dateOfDeath" name="dateOfDeath" required><br><br>
+        </div>
+        <div class="form-group">
+            <label for="placeOfDeath">Place of Death:</label><br>
+            <input type="text" id="placeOfDeath" name="placeOfDeath" required><br><br>
+        </div>
+        <div class="form-group">
+            <label for="causeOfDeath">Cause of Death:</label><br>
+            <input type="text" id="causeOfDeath" name="causeOfDeath" required><br><br>
+        </div>
+        <div class="form-group">
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" required><br><br>
+        </div>
+        <div class="form-group">
+            <label for="gender">Gender:</label><br>
+            <select id="gender" name="gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div><br><br>
+
+        <div class="form-group">
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address" required><br><br>
+        </div>
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+     <h2>Donation Form</h2>
+    <form action="#" method="post">
+        <label for="donorName">Name:</label><br>
+        <input type="text" id="donorName" name="donorName"><br><br>
+      
+        <label for="donationAmount">Donation Amount:</label><br>
+        <input type="number" id="donationAmount" name="donationAmount" min="0"><br><br>
+      
+        <input type="submit" value="Donate">
+      </form>
+
+      <h2>Reservation Form</h2>
+      <form action="#" method="post">
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName"><br><br>
+      
+        <label for="reservationDate">Reservation Date:</label><br>
+        <input type="date" id="reservationDate" name="reservationDate"><br><br>
+      
+        <label for="time">Time:</label><br>
+        <input type="time" id="time" name="time"><br><br>
+      
+        <input type="submit" value="Reserve">
+      </form>
+
+     <h2>Appointment Form</h2>
+      <form action="#" method="post">
+        <label for="patientName">Patient Name:</label><br>
+        <input type="text" id="patientName" name="patientName"><br><br>
+      
+        <label for="appointmentDate">Appointment Date:</label><br>
+        <input type="date" id="appointmentDate" name="appointmentDate"><br><br>
+      
+        <label for="doctor">Doctor:</label><br>
+        <select id="doctor" name="doctor">
+          <option value="drSmith">Dr. Smith</option>
+          <option value="drJones">Dr. Jones</option>
+        </select><br><br>
+        <input type="submit" value="Book Appointment">
+      </form>
+
+      <h2>Course Enrollment Form</h2>
+      <form action="#" method="post">
+        <label for="studentName">Student Name:</label><br>
+        <input type="text" id="studentName" name="studentName"><br><br>
+      
+        <label for="course">Select Course:</label><br>
+        <select id="course" name="course">
+          <option value="math101">Math 101</option>
+          <option value="eng202">English 202</option>
+          <option value="cs303">Computer Science 303</option>
+        </select><br><br>
+      
+        <input type="submit" value="Enroll">
+      </form>
+
+      <h2>Medical History Form</h2>
+      <form action="#" method="post">
+        <label for="patientName">Patient Name:</label><br>
+        <input type="text" id="patientName" name="patientName"><br><br>
+      
+        <label for="allergies">Allergies:</label><br>
+        <textarea id="allergies" name="allergies"></textarea><br><br>
+      
+        <label for="medications">Current Medications:</label><br>
+        <textarea id="medications" name="medications"></textarea><br><br>
+      
+        <input type="submit" value="Submit Medical History">
+      </form>
+      
+      <h2>Membership Signup Form</h2>
+      <form action="#" method="post">
+        <label for="membershipType">Choose Membership Type:</label><br>
+        <select id="membershipType" name="membershipType">
+          <option value="basic">Basic</option>
+          <option value="premium">Premium</option>
+          <option value="vip">VIP</option>
+        </select><br><br>
+      
+        <label for="paymentMethod">Payment Method:</label><br>
+        <select id="paymentMethod" name="paymentMethod">
+          <option value="creditCard">Credit Card</option>
+          <option value="paypal">PayPal</option>
+          <option value="bankTransfer">Bank Transfer</option>
+        </select><br><br>
+      
+        <input type="submit" value="Sign Up">
+      </form>
+
+      <h2>Product Review Form</h2>
+      <form action="#" method="post">
+        <label for="productName">Product Name:</label><br>
+        <input type="text" id="productName" name="productName"><br><br>
+      
+        <label for="review">Your Review:</label><br>
+        <textarea id="review" name="review"></textarea><br><br>
+      
+        <label for="rating">Rating:</label><br>
+        <select id="rating" name="rating">
+          <option value="1">1 - Poor</option>
+          <option value="2">2 - Fair</option>
+          <option value="3">3 - Good</option>
+          <option value="4">4 - Very Good</option>
+          <option value="5">5 - Excellent</option>
+        </select><br><br>
+    
+        <input type="submit" value="Submit Review">
+      </form>
+</body>
+</html>
